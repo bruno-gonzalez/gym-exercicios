@@ -9,7 +9,7 @@ const NovoTreino = ({exercicio, repeticoes, treino, aoDeletar}) => {
          </div>
        
          <div className="novosTreinos__container">
-            <h3>Exercico: {exercicio}</h3>   
+            <h3>Exercício: {exercicio}</h3>   
             <p>Repetições: {repeticoes}</p>
          </div>
       </section>
