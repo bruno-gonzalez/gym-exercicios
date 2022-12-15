@@ -1,23 +1,54 @@
-import logo from './logo.svg';
 import './App.css';
+import './reset.css'
+import Cabecalho from './componentes/Cabecalho';
+import Formulario from './componentes/Formulario';
+import { useState } from 'react';
+import Treinos from './componentes/Treinos';
+import { v4 as uuidv4 } from 'uuid';
+
+
 
 function App() {
+
+  const [treinos, setTreinos] = useState([
+    {
+      id: uuidv4(),
+      exercicio: 'Remada',
+      repeticoes: '12'
+    }
+  ]);
+
+  function cadastrarTreino(novoTreino) {
+    setTreinos([...treinos, {...novoTreino, id: uuidv4()}])
+  }
+
+  function deletarTreino(id) {
+    setTreinos(treinos.filter(treino => treino.id !== id))
+  }
+  
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Cabecalho />
+        <Formulario treinos={treinos} aoCadastrarTreino={novoTreino => cadastrarTreino(novoTreino)} />
       </header>
+      <section className='treinos__titulo'>
+        <div className='treinos'>
+          <h2>Treino de Hoje</h2>
+          {treinos.map(treino => {
+            return(
+              <Treinos 
+                key={treino.id}
+                exercicios={treino.exercicio} 
+                repeticoes={treino.repeticoes} 
+                aoDeletar={ () => deletarTreino(treino.id)}
+                treino={treinos}
+              />
+            )
+          })}
+        </div>
+      </section>
     </div>
   );
 }
