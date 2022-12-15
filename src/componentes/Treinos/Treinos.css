@@ -1,0 +1,37 @@
+.logo__treino{
+   width: 100px;
+}
+
+.treinos__container {
+   display: flex;
+   justify-content: space-around;
+   flex-flow:column wrap;
+   color: #181b22;
+   font-family: 'Arimo', sans-serif;
+   background-color: #feedda;
+   width: 20vw;
+   padding: 1em;
+   text-align: center;
+   margin: 1em;
+   border-radius: 20px;
+   box-shadow: 2px 2px 4px 4px #0f111561;
+   cursor: pointer;
+}
+
+.treinos__container:hover{
+   box-shadow: inset 2px 2px 4px 4px #0f111561;
+}
+
+.cabecalho__treino{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+@media screen and (max-width: 500px) {
+   .treinos__container{
+      width: 80vw;
+   }
+}

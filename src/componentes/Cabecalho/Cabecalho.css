@@ -1,0 +1,14 @@
+.cabecalho {
+   background-color: #feedda;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.logo{
+   width: 150px;
+}
+
+.icone {
+   cursor: pointer;
+}
