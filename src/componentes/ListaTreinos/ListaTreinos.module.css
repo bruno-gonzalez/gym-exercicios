@@ -1,0 +1,56 @@
+.treino{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.container {
+   display: flex;
+   flex-flow: column wrap;
+   justify-content: center;
+   align-items: center;
+   margin: 2em 1em;
+   background-color: #feedda;
+   width: 31vw;
+   padding: 2em 0;
+   border-radius: 20px;
+   cursor: pointer;
+}
+
+.container h1{
+   font-size: 1.5em;
+   font-weight: bold;
+   margin-bottom: 1em;
+}
+
+.container:hover{
+   transition: .3s;
+   opacity: .7;
+}
+
+.lista {
+   text-align: center;
+   margin-bottom: 1em;
+}
+
+.lista p {
+   font-weight: bold;
+   margin: 1em 0;
+}
+
+
+@media screen and (max-width: 800px) {
+   .container{
+      width: 40vw;
+   }
+   @media screen and (max-width: 550px) {
+      .container{
+         width: 70vw;
+         padding: 2em;
+      }
+   }
+  
+}
+
+
+

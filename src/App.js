@@ -1,6 +1,5 @@
 import './App.css';
 import './reset.css'
-import Cabecalho from './componentes/Cabecalho';
 import Formulario from './componentes/Formulario';
 import { useState } from 'react';
 import Treinos from './componentes/Treinos';
@@ -11,11 +10,7 @@ import { v4 as uuidv4 } from 'uuid';
 function App() {
 
   const [treinos, setTreinos] = useState([
-    {
-      id: uuidv4(),
-      exercicio: 'Remada',
-      repeticoes: '12'
-    }
+
   ]);
 
   function cadastrarTreino(novoTreino) {
@@ -30,7 +25,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Cabecalho />
         <Formulario treinos={treinos} aoCadastrarTreino={novoTreino => cadastrarTreino(novoTreino)} />
       </header>
       <section className='treinos__titulo'>

@@ -1,0 +1,37 @@
+[
+   {
+      "Exercicio": "Exercício: Hack Machine",
+      "Repeticoes": "Repetições: 12",
+      "id": 1
+   },
+   {
+      "Exercicio": "Exercício: Mesa Flexora",
+      "Repeticoes": "Repetições: 12",
+      "id": 2
+   },
+   {
+      "Exercicio": "Exercício: Leg Press 45",
+      "Repeticoes": "Repetições: 12",
+      "id": 3
+   },
+   {
+      "Exercicio": "Exercício: Cadeira Adutora",
+      "Repeticoes": "Repetições: 12",
+      "id": 4
+   },
+   {
+      "Exercicio": "Exercício: Desenvolvimento Arnold",
+      "Repeticoes": "Repetições: 12",
+      "id": 5
+   },
+   {
+      "Exercicio": "Exercício: Elevação Frontal - polia",
+      "Repeticoes": "Repetições: 12",
+      "id": 6
+   },
+   {
+      "Exercicio": "Exercício: Encolhimento barra smith",
+      "Repeticoes": "Repetições: 12",
+      "id": 7
+   }
+]

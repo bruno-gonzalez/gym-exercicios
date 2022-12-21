@@ -1,0 +1,37 @@
+[
+   {
+      "Exercicio": "Exercício: Rosca Alternada",
+      "Repeticoes": "Repetições: 12",
+      "id":1
+   },
+   {
+      "Exercicio": "Exercício: Remada Alta Supinada",
+      "Repeticoes": "Repetições: 12",
+      "id":2
+   },
+   {
+      "Exercicio": "Exercício: Remada Baixa",
+      "Repeticoes": "Repetições: 12",
+      "id":3
+   },
+   {
+      "Exercicio": "Exercício: Rosca Inclinada",
+      "Repeticoes": "Repetições: 12",
+      "id":4
+   },
+   {
+      "Exercicio": "Exercício: Rosca Scott",
+      "Repeticoes": "Repetições: 12",
+      "id":5
+   },
+   {
+      "Exercicio": "Exercício: Serrote",
+      "Repeticoes": "Repetições: 12",
+      "id":6
+   },
+   {
+      "Exercicio": "Exercício: Crucifixo Inverso",
+      "Repeticoes": "Repetições: 12",
+      "id":7
+   }
+]

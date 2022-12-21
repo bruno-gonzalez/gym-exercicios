@@ -1,0 +1,37 @@
+[
+   {
+      "Exercicio": "Exercício: Supino Reto",
+      "Repeticoes": "Repetições: 12",
+      "id": 1
+   },
+   {
+      "Exercicio": "Exercício: Supino Inclinado",
+      "Repeticoes": "Repetições: 12",
+      "id": 2
+   },
+   {
+      "Exercicio": "Exercício: Cross Over Polia Alta",
+      "Repeticoes": "Repetições: 12",
+      "id": 3
+   },
+   {
+      "Exercicio": "Exercício: Tríceps Máquina",
+      "Repeticoes": "Repetições: 12",
+      "id": 4
+   },
+   {
+      "Exercicio": "Exercício: Tríceps de lado",
+      "Repeticoes": "Repetições: 12",
+      "id": 5
+   },
+   {
+      "Exercicio": "Exercício: Tríceps inverso",
+      "Repeticoes": "Repetições: 12",
+      "id": 6
+   },
+   {
+      "Exercicio": "Exercício: Pull Over",
+      "Repeticoes": "Repetições: 12",
+      "id": 7
+   }
+]
