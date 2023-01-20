@@ -1,0 +1,24 @@
+.nf__container{
+    height: 70vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.nf__titulo {
+    margin: 5em auto;
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+.nf__botao {
+    background-color: transparent;
+    color: #feedda;
+    border: none;
+    margin-left: 5em;
+    font-weight: bold;
+    cursor: pointer;
+}
